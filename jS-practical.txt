@@ -1,0 +1,1704 @@
+// //window.alert("<h1>Elzero</h1>");
+// alert("stop !");
+// confirm("are ready now")
+// get input from user by -> 
+// pro = window.prompt("chow old are you ");
+// console.log(pro);
+// console.log("how are %cyou", "color:red")
+// message = "hello to every world ";
+// result = confirm(message);
+// console.log(result); // true if it ok other it will be false (result) .
+
+// ------------------- null and undefiended --------------------
+
+// undefiened -> not assign a value && is global window object 
+
+// //not assign value 
+// var a;
+// console.log(typeof a);
+
+// //access a value not exist 
+// var b = ["ahmed", "wael"];
+// console.log(typeof b[7]);
+
+// //retuen value of function that has no return value 
+// function foo() { return; }
+// console.log(typeof foo());
+
+//null 
+// pro = window.prompt("chow old are you ");
+// console.log(pro);  // if user not input any think it will be null 
+
+
+
+// console.log("Hhello From Js");
+// console.table(["ahmed", "mohamed"]);
+// console.log("hello %cfrom %ccjs", "color:red;font-size:51px;", "font-size:41px;color:blue;")
+// console.error("warnning");
+// document.write("<style>h1{color:red;text-align:middle;}</style><h1>Elzero</h1>");
+// console.log("%cElzero %cWeb %cSchool", "color:red;font-size:40px;", "color:green;font-size:40px;", "background:blue;font-size:40px;");
+// console.group();
+// console.log("Level 3");
+// console.warn("More of level 3");
+// console.groupEnd();
+// console.log("Back to level 2");
+// console.groupEnd();
+// console.log("Back to the outer level");
+// console.log("Groub 1");
+// console.group();
+// console.log("Message 1");
+// console.log("Message 2");
+// console.log("child Groub");
+// console.groupEnd();
+// console.group();
+// console.log("Message 1");
+// console.log("Message 2");
+// console.group();
+// console.log("grand groub");
+// console.log("Message 1");
+// console.log("Message 2");
+// console.log(typeof 30);
+// console.log(typeof "30");
+// console.log(typeof ["30", "asa"]);
+// console.log(typeof { ahmed: 'asa' }); // object 
+// console.log(variable_id); //
+// variable_id.innerHTML = "df";
+
+
+// var a = "El \
+// Web \
+// School";
+
+// console.log(a);
+// var firstName = "hello world";
+// var lastName = "me too ";
+// console.log(`${lastName}
+// ${firstName}`);
+// console.log(`${variable_name}   `)
+
+// <!-- #017 concatenate cj=hallenge -->
+// var pageTitle, pageDescribtion, Date;
+// pageTitle = "Elzero";
+// pageDescribtion = "Elzero Web School";
+// Date = "25/10";
+// var divContainer = `
+// <div>
+//         <h3>Hello ${pageTitle}</h3>
+//         <p>${pageDescribtion}</p>
+//         <span>${Date}</span>
+// </div>
+// `;
+// document.write(divContainer.repeat(4));
+// var header = `
+//     <div>
+//         <h1>Hello world</h1>
+//     </div>
+
+// `;
+// document.write(header.repeat(6));
+
+// <!-- END #017 concatenate challenge -->
+
+// let d = "-100";
+// let e = "20";
+// let f = 30;
+// let g = true;
+// console.log(d * e);
+// console.log();
+
+// console.log("Write Your Code Here"); // 2000
+// console.log("Write Your Code Here"); // 173
+
+// Numbers 
+//numbers
+// consol/e.log(10000000);
+//console.log(1_000_000);
+// console.log(10 ** 6);
+// console.log(2e6);
+// console.log(Number.MAX_VALUE);
+// console.log(Number.MAX_SAFE_INTEGER);
+// ------------------
+// console.log(100..toString());
+// var b = 12e4;
+// console.log(b.toString());
+// console.log(200.1.toFixed()); // return string and near it if no assume num in ();
+// console.log(288.232323.toFixed(4));
+// console.log(parseInt("121oiqw23ew")); -> 121 
+// // math.trunck() -> to remove numbers after . in number
+// console.log(Math.trunc(232.52323));      //  fixed - round floor ceil trunck 
+// console.log(Math.round(232.32323));
+// console.log(Math.ceil(232.32323));
+// console.log(Math.floor(232.32323));
+// console.log(Math.pow(2, 0));
+// let num = 10;
+
+// console.log(Math.trunc(Math.random() * (4 - 1 + 1)) + 1); 
+//  (Math.random() * (max - min) ) + min
+
+// console.log(Math.trunc(Math.random() * (10 - 5) + 5));
+
+// var name = "   ah  med   ";
+// console.log(name.trim()); // moving spaces front and back only 
+// let na = "abdullah Ragab AMer";
+// console.log(na.trim());
+// // console.log(name.indexof('az'));
+// // console.log(name.lastIndexOf())
+// var name = "abdulah|mohamed|amer";
+// console.log(name.split('|', 2));
+// console.log(name.split(2, 4));
+// console.log(name.slice(3, 5)); // not included the end 
+// console.log(name.split(" ", )); // ( separator , limit );
+// console.log(name.length);
+// // sting.substring(indeex to , index);
+// // sting.substr(indeex  , number of chars after index  );
+// let a = "Elzero Web School";
+// console.log(a.charAt(2).toLocaleUpperCase() + a.slice(3, 6));
+// console.log(a.charAt(a.length - 4).toUpperCase().repeat(5));
+// console.log(a.split(" ", 1));
+// console.log(a.substr(0, 7) + a.substr(a.length - 6));
+// console.log(a.charAt(0).toLowerCase() + a.slice(1, a.length - 1).toUpperCase00() + a.charAt(a.length - 1).toLowerCase());
+//var a =
+
+// console.log(10 == "10"); // commpare value only     // true
+// console.log(10 === "10"); // compare value and type // false
+// (10 == "10") ? console.log("df"): console.log("Fd");
+
+// let price = 0;
+// console.log(`the price is ${price || 200}`); // null undefined false value 
+// console.log(`the price is ${price ?? 200}`); // null undefined only
+// indexof -> first he found 
+// let gfg = 'GeeksforGeeks';
+// let geeks = 'GfG is the best platform "\
+//         + "to learn and experience "\
+//         + "Computer Science.';
+// console.log(String.fromCharCode(35)); 
+
+// var a = "hello to our world";
+// console.log(a.substring(2, 3)); // from index to index 
+// console.log(a.substr(2,3)); // index , length 
+// let zero = "hello to zero page ";
+// console.log(zero.substring(6, 8));  // to
+// console.log(zero.substr(6, 2));    // to 
+
+
+// // myFriends.unshift("osamsa", 10);
+// // console.log(myFriends);
+// // let a = myFriends.shift();
+// // console.log(myFriends);
+// // console.log(`ThE First Name is ${a}`);
+// // console.log(myFriends);
+// // let b = myFriends.pop();
+// // console.log(myFriends);
+// // console.log(`ThE LAST Name is ${b}`);
+// // myFriends.push("hi ");
+// // console.log(myFriends);
+// console.log(myFriends.indexOf(" ahmed "));
+// console.log(myFriends.lastIndexOf(" Mohamed "))
+// console.log(myFriends.lastIndexOf(" Mohamed "))
+//let myFriends = [" ahmed ", " Mohamed ", " Ibrahim ", " Karim "];
+// let a = [1, 2, 3];
+// let b = [4, 5, 6];
+// let c = a.concat(b, "78", [2321]);
+// console.log(a.reverse());
+// //console.log(c.join(" -> "))
+// let a = "Elzero Web School";
+// console.log(a.slice(2, 6).charAt(0).toUpperCase() + a.slice(3, 6));
+// console.log(a.charAt(13).toUpperCase().repeat(8))
+// let array_c = [...a]; //  -> or Array.from(a); ... ... ... ;
+// let tem_lit = `${a.substr(2,5)} ${a.substr(-6)}`;
+// a.toUpperCase();
+// a.charAt(0).toLowerCase();
+// a.charAt(1).toLowerCase();
+// console.log(`${a.charAt(0).toLocaleLowerCase}${a.charAt(1).toLowerCase()}${a.substr(3).toUpperCase()}`);
+
+/* ---- ---- --- */
+// let admins = ["Ahmed", "Osama", "Medhat", "Meteab"];
+// let MyEmployees = ["amgad", "sameh", "ameer", "omar", "osman", "amany", "samia", "anwar"];
+// document.write(`<div>We Have ${admins.length} </div>`);
+// document.write("<hr>");
+// document.write(`<h2>Team Member</h2>`);
+// function calc(...numbers) {
+//     let res = 0;
+//     for (let i = 0; i < numbers.length; i++)
+//         res += numbers[i];
+//     return res;
+// }
+// console.log(calc(12, 21, 21, 2, 12, 1));
+
+//-------------------------- array -------------------
+
+//JavaScript arrays are resizable and can contain a mix of different data types. 
+
+
+
+// let s = [0, 1, 2, 3, 4, 2, 5];
+// s.length = 5; // u can set size more or less remain is empty 
+// console.log(s);
+
+//------------
+
+// unshift("","") -> adding elements at front of array
+// push("","") -> adding elements at end of array 
+// shift() -> return moved first element 
+// pop() -> return moved last element 
+
+// s.unshift("ahmeds", "ali", "osama", "mahmoud");
+// s.push("last_1", "last_2", "last_3", "last_4");
+// console.log(s);
+// var last = s.pop();
+// var front = s.shift();
+// console.log(`First ele is ${front} Last ele is ${last}`);
+
+//search in array  - indexOf (int) and -LastIndexOF (int)  - include (bool)
+// console.log(s.indexOf(2));
+// console.log(s.indexOf(2, 4)); // scape searching 4 from front
+
+// console.log(s.lastIndexOf(2));
+// console.log(s.lastIndexOf(2, -4)); // scape searching 4 from last
+// s.push("ahmed");
+// var test_1 = [1, 2, "1000", 3, 4, 5];
+// test_1[test_1.indexOf(1)] = "ahmed";
+// console.log(test_1);
+
+// // sorting 
+// //arr_name.reverse() -> to reverse all elemets 
+// test_1.sort(); // "1000" 2  1  here sort abgadi with string 
+// console.log(test_1.sort().reverse());
+
+// // slice -> not affected to array (start,end) 
+// // and splice -> affect on array (start , count , added_elements) return array
+// let my_a = ["ahmed", "mohamed", "ayman", "gamal", "adel", "nesim"];
+// console.log(my_a.slice(0, 2));
+// console.log(my_a.slice(3, -2));
+// var b = my_a.splice(0, 0, "front");
+// console.log(my_a);
+// my_a.splice(-2, 2, "rear");
+
+// -----------------------
+// join and concat 
+// join join arr into string (separator) and origin still origin 
+// let aa = [1, 2, 3];
+// let bb = [4, 5, 6];
+// let ab = aa.concat(bb);
+// ab.join('|');
+// console.log(ab.join('|'));
+// console.log(ab.join(' - '));
+
+// ------------------------challange-------------------
+
+// let counter = 3;
+// let zero = 0;
+// let my = ["Ahmed", "Mazero", "Elham", "Osama", "Gamal", "Ameer"];
+// // my = my.reverse().splice(2, 4);
+// my = my.reverse();
+
+// // ['Ameer', 'Gamal', 'Osama', 'Elham', 'Mazero', 'Ahmed']
+
+// my = my.splice(my.indexOf("Osama"));
+
+// console.log(my); // done
+
+// //    ['Osama', 'Elham', 'Mazero', 'Ahmed']
+// console.log(my.slice(my.length - counter, counter));
+// //    ['Elham', 'Mazero']
+
+// my[my.length - counter] = "Elzero";
+// console.log(my.slice(my.length - counter, counter)); // 1 - 3 
+// console.log(my[my.length - counter]); // done
+
+//------------------------------------------
+//string revision
+// var firstName = "abdullah";
+// var lastName = "OMRAN";
+// console.log(firstName.indexOf("l"));
+// console.log(firstName.charCodeAt(0));
+// console.log(firstName.startsWith(String.fromCharCode(97)));
+// console.log(firstName.endsWith(String.fromCharCode(97)));
+// firstName.toUpperCase();
+// console.log(firstName.charCodeAt(0));
+
+// console.log(String.fromCharCode(36));
+
+// -----------------------loop----------------------
+
+// var emp = ["ahmed", "mohamed", "ali", 1, "mo salah", 2];
+// for (let i = 0; i < emp.length; i++) {
+//     if (typeof emp[i] == "string")
+//         console.log(emp[i]);
+// }
+
+//Label -> may use when u want to break main loop when u in nested 
+
+// for (let i = 1; i < 7; i++) {
+//     for (let j = 1; j < 7; j++) {
+//         console.log(j);
+//         if (j == 2)
+//             break;
+
+//     }
+// }
+// console.log("with nested loop notice ! ");       // with label u can do this 
+// mainloop: for (let i = 1; i < 7; i++) {
+//     nestedloop: for (let j = 1; j < 7; j++) {
+//         console.log(j);
+//         if (j == 2)
+//             break mainloop;
+
+//     }
+// }
+
+//               loop challenge    //done in dynamically way 
+
+// var admins = ["ahmed", "osama", "sayed", "stop", "samara"];
+// var emp = ["amged", "samah", "ameer", "omar", "othman", "amany", "samia"];
+// document.write(`<h3>We have ${admins.length}</h3><h3>we have ${emp.length} employees</h3>`);
+
+// for (let i = 0; i < admins.length; i++) {
+
+//     document.write(`<h2>Admin for team ${i+1} is ${admins[i]}</h2>`);
+//     document.write(`<h3>Team Members </h3>`);
+//     var counter = 1;
+
+//     for (let j = 0; j < emp.length; j++) {
+//         if (emp[j].charAt(0) === admins[i].charAt(0))
+//             document.write(`<h4>- ${counter++} ${emp[j]}</h4>`);
+
+//     }
+// }
+
+// -------------------- function -----------------------
+
+// function calc(...numbers) {
+//     let res = 0;
+//     for (let i = 0; i < numbers.length; i++) {
+//         res += numbers[i];
+//     }
+//     // console.log("hello worls");
+//     return res;
+// }
+
+// console.log(calc(1, 2, 3, 4, 5, 6));
+// var b = "abdullah";
+// console.log(b);
+// b = 9;
+// console.log(b);
+
+
+//          ---    function challange  ---
+// function par(...arg) {
+//     let name, age, bol;
+//     for (let i = 0; i < arg.length; i++) {
+//         if (typeof arg[i] === 'boolean')
+//             bol = arg[i];
+//         if (typeof arg[i] === 'number')
+//             age = arg[i];
+//         if (typeof arg[i] === 'string')
+//             name = arg[i];
+//     }
+//     if (bol === true)
+//         console.log(`Your name ${name} and your age is ${age} , you are available`);
+//     else
+//         console.log(`Your name ${name} and your age is ${age} , you are not for available`);
+
+// }
+
+// par(true, "ahmd", 121);
+// par(12, false, 90);
+
+// challange done 
+
+// ---------------------------------------
+
+
+// -- -  revision  ----------
+
+// var a = String("ahmed"); // conver to string 
+// var b = ({}).toString();
+// var c = a.concat('2e', "we");
+// var s = "ahmed mohamed ali";
+// var arr = ["ahmed", "mohamed"];
+// arr.reverse();
+// console.log(arr);
+// console.log(s.split(' ').reverse().join()); // reverse string 
+// // consol.log(s.join('|')); // no join methoud to array u should make string arr by using split and join them 
+// // console.log(reverseString(s));
+// // reverseString(s);
+// console.log(c);
+// console.log("a\\b"); // a\b 
+// console.log(b);
+// console.log(String.fromCharCode(90, 99, 98, 93, 94));
+// console.log(a);
+
+
+/// -        scope           -
+
+// variable scope is targeted at defining the part of the program where a
+// variable can be accessible.
+
+// let and const provide block scop as if condion  {}.
+// function test() {
+//     var bb = 0; // all in function is local scope 
+// }
+// if (10 === 10) {
+//     var b = 9;
+//     let a = 9;
+// }
+// let hello = function hello() { return "helo wotld " };
+// console.log(hello);
+
+// function parent() {
+//     var v = 0;
+
+//     function child() {
+//         v = 6;
+//     }
+//     console.log(v);
+// }
+// // console.log(b);
+// parent();
+// console.log(bb);  // not accesd (local scope )
+// console.log(a); not accesd (let variable )
+
+
+
+// let print = () => 10; //arrow function 
+// let print3 = _ => { return 23; };
+// let print4 = function(num) { return num; };
+// // let print5=(num)=>
+// function print(a = "none", b) {
+//     console.log(a);
+//     console.log(b);
+
+// }
+// print("ahmd");
+// // console.log(print());
+// // console.log(print3());
+
+
+
+// // challange   //done 
+
+// let names = (...person) =>`String [${person.join("],[")}] => Done !`;
+// console.log(names("Osama","Mohamed","Ali", "Ibrahim"))
+
+// function names(...users) {
+//     console.log("String [" + users.join("], [") + "]" + " => Done !");
+// }
+// let name = function(...user) {
+//     console.log("String [" + user.join("], [") + "]" + " => Done !");
+// }
+// console.log(names("ahmd", "ali", "ibrahim"));
+// console.log(name("ahmd", "ali", "ibrahim"));
+
+
+//replace 
+
+
+// var sen = "i love js too much and JS is very fun more than c++ ";
+// var res = sen.replace("js", "php");
+// var reg = sen.replace(/js/gi, "php");
+// console.log(res);
+
+
+// check parindom number 
+
+// function check(str) {
+//     if (str.length === 1) {
+//         console.log(" paralindome !")
+//         return;
+
+//     }
+//     if (str.length % 2 === 0) {
+//         var count = str.length / 2;
+//     } else {
+//         count = Math.ceil(str.length / 2);
+//     }
+//     for (let i = 0; i < count; i++) {
+//         if (str[i] !== str[str.length - 1 - i]) {
+//             console.log("not para ");
+//             return;
+//         }
+//     }
+//     console.log("paralindom number !");
+
+// }
+// check("ahke");
+// check("e121e");
+
+// printt();
+// printt = () => { console.log("hello"); }
+// function print() {
+//     console.log("hello");
+//     var my = "sds";
+// }
+// console.log(my);
+
+//////////////// higher order parameter
+// function expression
+// let x = function(x, y) {
+//     return x * y;
+// }
+// with no parameter
+// let hello = () => console.log("hello world");
+// hello()
+
+// // with expression 
+// age = 19;
+// let check = (age > 19) ?
+//     () => console.log("adult person") :
+//     () => console.log("baby");
+// check();
+
+// // with parameters
+
+// let addition = (a, b) => {
+//     let res = a + b;
+//     return res;
+// }
+// console.log(addition(12, 21));
+
+// // trick  argumments return passing elements as object 
+// let x = function() {
+//     console.log(arguments);
+// }
+// x(4, 6, 7); // Arguments [4, 6, 7]
+
+// let welcome = (age > 10) ? () => console.log(21) : () => console.log(12);
+
+// function add(m) {
+//     console.log("bla bla bla ");
+// }
+// str = "12 1ew ";
+// console.log(parseInt(str)); // return first int from integer 
+// let arr_1 = [1, 2, 3, 4, 5];
+// let arr = arr_1.map((ele, index) => index);
+// console.log("indexes : " + arr)
+// let arr_2 = arr_1.map(add);
+// console.log(arr_2); // undefiended elements !
+
+
+//------------------
+// let sw = "elZefdfd232435ro";
+// // upper to lower and either
+// let nu = [1, 2, 3, 4, -2, -3];
+
+// let n = sw.split("").map(function(ele) {
+//     return (ele === ele.toLocaleLowerCase() ? ele.toUpperCase() : ele.toLowerCase());
+
+// });
+// let nu_new = nu.map(n => n * -1);
+// // console.log(nu_new);
+// let pa = sw.split("").map(function(ele) {
+//     return isNaN(parseInt(ele) ? ele : "");
+// }).join("");
+// console.log(pa)
+
+// console.log(n);
+
+
+// -  ------------------ filter ----------------
+
+// var a = [2, 3, 4, 5, 6, 2, 35];
+// var b = a.filter(function(ele) {
+//     return ele % 2 === 0;
+// });
+
+// var c = a.filter(function(ele) { // filter prime numbers 
+//     if (ele === 2 || ele === 3)
+//         return ele;
+//     else {
+//         for (let i = 2; i <= ele / 2; i++) {
+//             if (ele % i === 0)
+//                 return;
+//         }
+//     }
+//     return ele;
+// })
+
+// console.log(c);
+
+/////////////////         practise 
+
+// str = "i love foood very much than uuuuu";
+// f = str.split(" ").filter(function(ele) {
+//     return ele.length > 4;
+// }).join(" ");
+// console.log(f);
+
+// let mix = "23232j3b34";
+// let f = mix.split("").map(function(ele) {
+//     return ele * ele;
+// }).join("");
+// console.log(f);
+
+// -------------------  reduce ----------------------
+
+// let numbers = [2, 3, 4, 5, 65, 4, 34, 2];
+// let sum = numbers.reduce(function(ac, cur, index, arr) {
+//     return toString(ac) + toString(cur);
+// }, 1); // if there isnt intial will itrate from 1 to size -1 with acu processing 
+// // there is intial will be ac and iterate process in it from 0 to sizee -1
+// console.log(sum);
+// let max = numbers.reduce(function(ac, cur, index, arr) {
+//     return Math.max(ac, cur);
+// }, 199);
+// console.log(max);
+
+
+
+// -------------------  for each  ----------------------
+// let numbers = [2, 3, 4, 5, 65, 4, 34, 2];
+// numbers.forEach(function (ele,index));
+// numbers.forEach((ele) => console.log(ele))
+
+
+//                   challange            
+// let myString = "1,2,3,EE,l,z,e,r,o,_,W,e,b,S,c,h,o,o,l,2,0,z";
+// // Elzero Web School
+// let newString = myString.split(",").filter(function(ele) {
+//     if (ele === "_")
+//         return "";
+//     else
+//         return isNaN(ele);
+// }).reduce(function(ac, cur, index, arr) {
+//     if (ac === arr[index + 1] && ac === ac.toUpperCase()) {
+//         return ac + " ";
+//         // index++;
+//     } else
+//         return ac + cur;
+
+// }, "");
+// console.log(newString);
+
+/// challange ------------
+// let solution = myString.split("").filter(function(ele) {
+//     return (ele >= 'a' && ele <= 'y') || (ele >= 'A' && ele <= 'Y') || ele === "_";
+// }).reduce(function(acc, current) {
+//     return `${acc}${current}`; //EElero_Web_School
+// }).slice(true).replaceAll("_", " ");
+
+
+
+// let myString = "1,2,3,EE,l,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
+
+// let sol = myString.split("").filter(function(ele) {
+//     return (ele >= 'a' && ele <= 'y') || (ele >= 'A' && ele <= 'Y') || ele === "_";
+// }).reduce(function(ac, cur) {
+//     return `${ac}${cur}`
+// }).slice(1).replaceAll("_", " ");
+
+// console.log(sol);
+
+
+// squre arr
+
+// let arr = [2, 3, 4, 5, 3];
+// let n_arr = arr.map(e => Math.pow(e, 2));
+// const input = [1, -4, 12, 0, -3, 29, -150];
+// let n_ar = arr.map(function(ele) {
+//     return ele * ele;
+// });
+
+// fac       with reduce and fill 
+
+// input = 3;
+// let arr = new Array(input).fill(null);
+// let fac = arr.map(function(ele, index) {
+//     return index + 1;
+// }).reduce(function(ac, cur) {
+//     return cur * ac;
+// }, 1);
+// console.log(fac);
+
+
+
+
+
+// --0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0
+// const squareList = arr =>
+//   arr.reduce((out, x) => x % 1 === 0 && x > 0 ? [...out, x * x] : out, []);
+// console.log(squareList([4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2]));
+
+//               objects
+// let na = "name";
+// let stu = {
+//     name: "ahmd",
+//     age: 12,
+//     hoppies: ["football", "basket ball"],
+//     country: {
+//         ad1: "cairo",
+//         egypt: {
+//             add1: "as",
+//             add2: "ass",
+//         }
+//     },
+//     "first name": "ahmed aa",
+//     sayhello: function() {
+//         return `hello `;
+//     },
+//     say: function() {
+//         return `hi`;
+//     },
+//     "say hello": function() {
+//         return `every gus win `;
+//     }
+
+// };
+// console.log(stu.country.egypt.add1); /// dot cant access dynamic 
+// console.log(stu.na) // undefinded => dot cant access dynamic 
+// console.log(stu["name"])
+// console.log(stu["name"]);
+// console.log(stu["first name"]);
+// console.log(stu.sayhello());
+// console.log(stu.say());
+// console.log(stu["say hello"]());\
+
+//revision
+
+// You can use Object.freeze to prevent an object (or array) from being changed:
+
+// x = [1, 2, 3];
+// x.push(8);
+// Object.freeze(x);
+// x[1] = 2323;
+// console.log(x);
+
+// const student = { // delete proberty
+//     name: "abdullah",
+//     lastName: "omran",
+//     age: 20,
+//     display: function() {
+//         return `name : ${this.age} | lastNmae : ${this.age} | age :  ${this.age}`;
+//     },
+// };
+
+// let i = Object.create(student);
+
+// console.log(delete student.name);
+// for (let key in i) {
+//     console.log(key)
+// }
+
+
+// this  related to owner her (assigned to )
+// console.log(student.display())
+// document.getElementById("cl").onclick = function() {
+//     // return this;
+//     console.log(this);
+// }
+
+// "use strict";
+// arguments = "dd";
+// console.log(arguments);
+
+// function say() {
+//     // num = 0;
+//     ref = this;
+//     ref++;
+//     // ref.na = "d";
+//     return ref;
+// }
+// console.log(say());
+// console.log(this);
+
+// let o = function(name, age) {
+//     this.age = 12;
+//     this.name = "a";
+//     this.displayInfo = function() {
+//         console.log(`age : ${age} == name = ${name}`);
+//     }
+// };
+// let p1 = new o("ahmed", 12);
+// this.age = 1121;
+// p1.displayInfo();
+
+// let person = {
+//     age: 12,
+//     double: function() {
+//         return person.age * 2;
+//     },
+// };
+// // consperson.age = 13;
+// person.age = 2;
+// console.log(person.age);
+
+// let n = Object.create(person);
+
+// console.log(n);
+
+/// object.assign
+
+// function Automobile(color) {
+//     this.color = color;
+// }
+
+// var vehicle1 = new Automobile("red");
+// console.log(vehicle1);
+
+
+// let ob1 = {
+//     ob1: 1,
+//     say: function() {
+//         console.log("helo");
+//     },
+// };
+
+// let ob2 = {
+//     ob2: 2,
+//     say: function() {
+//         console.log("helo");
+//     },
+// };
+// let target = {
+//     ob1: 1,
+//     say: function() {
+//         console.log("hello");
+//     },
+// };
+
+// let mer = Object.assign(target, ob1);
+// console.log(mer);
+// console.log(mer.say()); //helo  -> first is in
+
+
+// --------------------------dom------------------
+
+// select element by id
+
+// let header = document.getElementById("start");
+// console.log(header);
+
+// select element by name
+// let nam = document.getElementsByName("text3");
+// console.log(nam[0]); // first one by index
+
+// // select element by tagname
+
+// let tag = document.getElementsByTagName("input");
+// console.log(tag); // array 
+// console.log(tag[0]); //acces first element in array
+
+// // select by query selector choose first one 
+// let h_ref = document.querySelector(".links a");
+// console.log(h_ref)
+
+// // select by query selector choose all  
+// let ref_all = document.querySelector(".links a");
+// console.log(ref_all);
+
+// // getting [ title , form , links , body , imgs]
+// let title_page = document.title;
+// let page_links = document.links;
+// let bo = document.body;
+// console.log(title_page);
+// console.log(page_links);
+// console.log(bo);
+
+// get paarent of node
+// let e = document.querySelector(".head h1");
+// console.log(e.parentNode);
+
+// // get first child
+// let fi = document.querySelector(".main1");
+// console.log(fi.firstChild);
+
+// // get last child
+// let la = document.querySelector(".main1");
+// console.log(la.lastChild);
+
+// // childern -> for  children only   || childrenNodes -> for al children of children 
+
+// let d_a = document.querySelector(".main1");
+// console.log(d_a.children);
+
+// ----------------------
+
+// innner html .  text content
+// let fi = document.querySelector(".main1");
+// fi.innerHTML = "hi"; // you can write html 
+// fi.textContent = "hello <p>sdfs</p>" // all apear as text
+
+// let ele = document.querySelector(".active");
+// console.log(ele.getAttribute("class"));
+// console.log(ele.getAttribute("alt"));
+// console.log(ele.getAttribute("href"));
+
+// //setter 
+// ele.getAttribute("href", "twiter.com")
+
+// let d = document.querySelector("div h3");
+// console.log(d.attributes)
+// console.log(d);
+// if (d.hasAttribute("name")) {
+//     if (d.getAttribute("name") === "") {
+//         console.log("remove ");
+//         // d.removeAttribute("name")
+//     }
+// document.alert
+// }
+// let all_div = document.querySelectorAll("div");
+// for (let i = 0; i < all_div.length; i++) {
+//     // all_div[i].innerHTML = "<h1>im here for you </h1>";
+// }
+// console.log(all_div);
+// for (let i = 0; i < all_div.length; i++) {
+//     if (all_div[i].hasAttributes()) {
+//         all_div[i].removeAttribute("class");
+//         console.log("reomove done ")
+//     }
+// }
+
+// ------------ events ---------------
+// let name = document.myform.name.value;
+// let pass = document.myform.name.value;
+
+// let name = document.forms["myform"]["name"].value;
+// let pass = document.forms["myform"]["name"].value;
+// // console.log(name);
+// // console.log(age);
+// // let name = document.myform.name;
+// console.log(name);
+// console.log(pass);
+// var Window;
+
+// function windowOpen() {
+//     Window = window.open(
+//         "https://www.geeksforgeeks.org/",
+//         "_blank", "width=400, height=450");
+// }
+
+// function closeWindow() {
+//     Window.claos();
+// }
+
+// function windowBlure() {
+//     Window.blure();
+// }
+
+// function windowFocus() {
+//     Window.focus();
+// }
+
+// var v = document.getElementById(".valid");
+// // console.log(v.value.length);
+// if (v.value.length == 2) {
+//     v.blure();
+// }
+
+// -------------------------------- classList
+
+// let element = document.querySelector("#my-div");
+// // length 
+// console.log(element.classList.length);
+// //conatain -> chech if it has or nor
+// console.log(element.classList.contains("one", "three"));
+// //item("index") -> get class name index..
+// console.log(element.classList.item("1"));
+// // add class 
+// element.onclick = function() {
+//         console.log(element.classList.length);
+//         element.classList.add("ad-one");
+//     }
+//     // remove class
+// element.classList.remove("one");
+// // toggle() -> found= delete | not = add
+// element.classList.toggle("q_q");
+// element.classList.toggle("two");
+// let element = document.querySelector("#my-div");
+// element.style.background = "green";
+// element.style.width = "200px";
+// element.style.height = "50px";
+// element.style.cssText = "color : blue; font-size:32px;width:300px;height:40px;"; // style not add to top
+// element.style.removeProperty("color");
+// // element.styleSheets[0].css
+// element.style.setProperty("background-color", "red", "important");
+// // document.styleSheets[0].cssRules[0].style.setProperty("background-color", "red", "important");
+// // document.styleSheets[0].ownerNode[0].setProperty("color", "red")
+// // document.styleSheets[0].rules[0].style.setProperty("font-size", "30px", "important")
+// // document.styleSheets[0].cssRules[0].style.setProperty("color", "red");
+// // console.log(document.styleSheets[0].cssRules[1]);
+// document.styleSheets[0].cssRules[2].style.setProperty("color", "red");
+
+// let added = document.createElement("p");
+// // added.style = "width: 100px;height:10px; background:red;"
+// // element.before(added); // added 
+// // element.after(added);
+// // element.append(added);// add to last in element 
+// // element.prepend(added);// add to first in element
+// let s_1 = document.querySelector(".sp");
+// let parent = s_1.parentElement();
+// console.log(parent);
+// s_1.nextSibling.style.color = "red";
+// // console.log(element.nextElementSibling);
+
+// let div = document.querySelector("#my-div");
+// div.firstElementChild.innerHTML = "hello every body";
+// div.lastElementChild.innerHTML = "end of this ";
+// console.log(div.firstElementChild.innerHTML)
+// console.log(div.lastChild);
+// console.log(div.lastElementChild.innerHTML);
+
+
+// div.onclick = function() {
+//     div.classList.add("cloned");
+//     let newdiv = div.cloneNode(true);
+//     newdiv.className = "clone";
+//     document.body.appendChild(newdiv);
+// }
+// document.addEventListener("click", function(e) {
+//     if (e.target.className === "clone" || e.target.className === "cloned")
+//         console.log("clone")
+// });
+// document.addEventListener("mouseover", function() {
+//     console.log("hello id ");
+// });
+// div.addEventListener("")
+
+
+// ------------------revision math---------------
+// trunk .. -> no floating point 
+// console.log(Math.trunc(3.5 + 4.9)); // -> 8
+// console.log(Math.round(23.4));
+// console.log(Math.round(.4 * 100)); // only  integer returned 
+// max = 11;
+// min = 1;
+// // console.log(Math.trunc(Math.random() * (max - min) + min));
+// console.log(Math.trunc(Math.random() * (max - min) + min));
+// // (function() { alert("I've run - but can't be run again because I'm immediately invoked at runtime,          leaving behind only the result I generate"); }());
+// function print_log(num) {
+//     if (num > 0)
+//         console.log(num);
+//     print_log(--num);
+// }
+// let a = 4;
+// console.log("-----");
+// console.log(--a);
+// console.log("-----");
+// print_log(5);
+// var say = function say(times) {
+//     if (times > 0) {
+//         console.log('Hello!');
+//     }
+//     say(--times);
+// }
+// console.log(say(4));
+// let great = ((ele) => {
+//     if (ele > 9)
+//         console.log("you are in great function " + ele);
+
+// })();
+// great();
+// (() => {
+//     console.log("hello world "); // u are in  anmous function 
+// })();
+// (
+//     () => {
+
+//     }
+// )();
+
+// --------------------------------------
+
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=
+// let myDiv = document.createElement("div");
+// myDiv.className = "add-1";
+// myH = document.createElement("h2");
+// let mtText = document.createTextNode("hello this is text node ");
+// myH.appendChild(mtText);
+// myDiv.appendChild(myH);
+// document.body.appendChild(myDiv);
+// ----\
+// let parent = document.querySelector("#my-div");
+// parent.onmouseout = () => {
+//     console.log("click");
+// }
+// console.log("children is ")
+// console.log(parent.children); // element
+// console.log("children nodes");
+// console.log(parent.childNodes); // element
+// console.log("first element chlild ")
+// console.log(parent.firstElementChild);
+// console.log("first child");
+// console.log(parent.firstChild);
+// console.log(parent.children[1]);
+
+
+
+//           focus and blur and change and input 
+
+// let input = document.getElementById("sps");
+
+// // console.log(input);
+// input.addEventListener("input", () => {
+//     console.log("event input now !");
+//     // count++;
+// });
+
+// input.addEventListener("change", () => { // when remove focus from input and value change
+//     console.log("you out  now && value changed  ");
+// });
+// input.addEventListener("blur", () => {
+//     console.log("you blure now")
+// })
+// input.onfocus = function() {
+//     console.log("you focus now");
+// };
+
+
+// image ---
+// 
+//
+
+// let input_1 = document.forms[0].getElementsByTagName("input");
+// let userI = document.querySelector("[name='userINput']");
+// console.log(userI);
+// document.forms[0].onsubmit = function(e) {
+//     let v1 = false;
+//     let v2 = false;
+//     if (input_1[0].value.length > 4)
+//         v1 = true;
+//     if (input_1[1].value.length > 4)
+//         v2 = true;
+//     if (!v1 && !v2) {
+//         e.preventDefault();
+//         alert("not true ")
+//     }
+
+// };
+// let form = document.forms[0];
+// form.append("last in selected");
+// form.before("before all");
+// let div = document.createElement("div");
+// div.innerHTML = "hello from js";
+// div.style.color = "red";
+// document.body.appendChild(div);
+// form.before(div);
+
+// append -> first in container 
+// before -> last out from container
+// length// -----
+// ~
+// let n = document.createElement("div");
+// n.innerHTML = "hello everry";
+// let m = document.createElement("div");
+// m.innerHTML = "hello everry";
+// m.classList.add("ds");
+// document.querySelector(".para").appendChild(n);
+// document.querySelector(".para").appendChild(m);
+
+// .clone(); -> true -> copy all in it | else copy hirecky only 
+
+// let cloneForm = document.forms[0].cloneNode(true);
+// document.forms[0].after(cloneForm);
+// document.forms[0].after(cloneForm).cloneNode(true);
+
+// let id = setTimeout(() => {
+//     let btn = document.querySelector("button");
+//     // console.log(btn);
+//     btn.onclick = () => {
+//         clearTimeout(id);
+//     }
+//     console.log("hello in console");
+// }, 2000, "hello");
+// // clearTimeout(id); // func
+
+// function sayHelo(e, b) {
+//     console.log(`hello ${e} your age is = ${b}`);
+// }
+// setTimeout(sayHelo, 3000, "ahmed", 30);
+// setTimeout(function(a, b) {
+//     console.log(`hello ${a} age is ${b}`);
+// }, 300, "ahmed", 12);
+// setTimeout((a, b) => {
+//     console.log(`hello in our world ${a} and your age ${b}`);
+// }, 2000, "ahemd", 30);
+
+// setTimeout(function(a) {
+//     console.log("hello world " + a);
+// }, 2000, "ahmed");
+
+// setTimeout(sayHelo, 2000, "abdullah");
+
+// function sayHelo(a) {
+//     console.log(`hello your age is = ${a}`);
+// }
+// let div = document.createElement("div");
+// div.innerHTML = "5";
+// document.body.appendChild(div);
+
+// let btn = document.querySelector("button");
+
+// let count = setInterval(() => {
+//     div.innerHTML -= 1;
+// }, 1000);
+// btn.onclick = () => {
+//         clearInterval(count);
+//     }
+// let counter = setInterval(() => {
+//     div.innerHTML -= 1;
+//     if (div.innerHTML === "0") {
+//         clearInterval(counter);
+//     }
+// }, 2000);
+
+//  -----------------        windows location  ----------------
+// Using window.location.href
+//      First, we have to get familiar with the window.location.href method.
+//       Basically, it makes JavaScript get URL of the current webpage. 
+// location.href = "abdullah.com"
+// console.log(location.href)
+// console.log(location.hostname);
+// btn.onclick = function() {
+//         location.href = "/#sec";
+//     }
+// let s = document.querySelector("#sec");
+// s.onclick=function(){
+//     location.
+// }
+//     // location.href = "/#sec";
+// console.log(location.host); // with port
+// console.log(location.pathname); // with port
+// console.log(location.protocol); // with port
+
+// let openWindow = document.querySelector("#btn-1");
+// let closeWindow = document.querySelector("#btn-2");
+// let soundCloud = document.querySelector("#btn-3");
+// openWindow.onclick = () => {
+//     window.open("https://google.com", "width=200,height=200,top=400,right=200");
+
+// }
+// closeWindow.onclick = () => {
+//     window.close();
+// }
+// soundCloud.onclick = () => {
+//     window.open("https://soundcloud.com/you/likes", "_parent ", "width=200,height=200")
+// }
+
+// -----------------
+// var body = document.body,
+//     html = document.documentElement;
+
+// var height = Math.max(body.scrollHeight, body.offsetHeight,
+//     html.clientHeight, html.scrollHeight, html.offsetHeight);
+
+// let btn = document.querySelectorAll(".down-page");
+// for (let i = 0; i < btn.length; i++) {
+//     btn[i].onclick = () => {
+//         window.scrollBy({
+//             top: 630,
+//             behavior: "smooth"
+
+//         });
+//     }
+// }
+
+// let openWindow = document.querySelector(".b1");
+// let closeWindow = document.querySelector(".b2");
+
+// window.localStorage.setItem("color", "red");
+// window.localStorage.setItem("font-size", "20px");
+// // localStorage.clear(); -> to clear all 
+// // localStorage.removeItem("color"); -> remove item by key 
+// let colorChanges = window.localStorage["color"];
+// let fontChange = window.localStorage.fontSize;
+
+// openWindow.onclick = () => {
+//     colorChanges = "green";
+//     document.body.style.background = colorChanges;
+// }
+
+// closeWindow.onclick = () => {
+//     colorChanges = "yellow";
+
+//     document.body.style.background = colorChanges;
+// }
+// let element = document.querySelector(".c1");
+// element.onclick = (e) => {
+//     console.log(e.currentTarget.dataSet);
+// }
+
+
+// let exp = document.querySelector(".experiment");
+
+// let lis = document.querySelectorAll("ul li");
+
+// if (localStorage.getItem("color")) {
+//     exp.style.background = window.localStorage.color;
+
+//     lis.forEach((li)=>{
+//         li.classList.remove("active");
+//     })
+
+// }
+// lis.forEach((li) => {
+//     li.addEventListener("click", (e) => {
+//         lis.forEach((li) => {
+//             li.classList.remove("active");
+//         })
+//         e.currentTarget.classList.add("active");
+//         window.localStorage.setItem("color", e.currentTarget.dataset.color);
+//         exp.style.background = window.localStorage.color;
+//     });
+
+
+
+//     // add active to current 
+
+// })
+// let btn = document.querySelector("button");
+// console.log(btn)
+// window.onscroll = () => {
+//     if (window.scrollY > 800)
+//         btn.style.display = "none";
+//     else {
+//         btn.style.display = "block";
+//     }
+
+// }
+// btn.onclick = () => {
+//     window.scroll(0, 0);
+// }
+// let btn = document.querySelector(".name");
+// window.onload = () => {
+//         if (!sessionStorage.getItem("content")) {
+//             sessionStorage.setItem("content", btn.value);
+//         } else {
+//             btn.value = sessionStorage.getItem("content");
+//         }
+//     }
+// localStorage.setItem("content", "hello")
+
+// let map = new Map([
+//     [1, 2],
+//     [3, 4],
+//     [5, 6]
+// ]);
+// console.log(map.set(4, 5));
+// console.log(map);
+// let b = map[0].so
+// range = {
+//     mix: 100,
+//     min: 0
+// };
+
+// let array = [29382, 4394, 2, 23, 1, 0];
+// let res = array.some(function(e) {
+//     return (e > this.min && e < this.mix);
+// }, range)
+// console.log(res)
+
+// let obj = {
+//     12: "we",
+//     13: "sds",
+//     14: "we",
+//     19: "erre",
+//     20: "sds"
+// };
+// let Na = Object.keys(obj);
+// Na.map((e) => {
+//     return +e;
+// });
+
+// let res = Na.every((e) => {
+//     return e < 43;
+// });
+// console.log(res)
+
+// let a = [1, 32, 452, 13];
+// let b = [2, 43, 234, 2];
+// a.push(...a);
+// console.log(a);
+
+// let a = {
+//     a: 1,
+//     b: 2
+// };
+// let b = {
+//     b: 2,
+//     c: 3
+// };
+// let c = {...a, ...b, d: 4 };
+// console.log(c)
+
+
+
+
+
+// let a = {
+//     n: 12,
+//     greet(ele) {
+//         ele = this.w
+//         alert("hello in a " + ele);
+
+//     },
+//     sum(a, b, c, d) {
+//         return this.a + this.b + this.c + this.d + a + b + c + d;
+//     }
+// }
+// let b = {
+//     w: 122,
+//     a: 1,
+//     b: 2,
+//     c: 3,
+//     d: 4,
+//     arr: [1, 2, 3, 4]
+// }
+// abc = [1, 2, 3, 4];
+
+// // a.greet.call(b, 12);
+// console.log(a.sum.apply(b, b.arr));
+// function b() {
+//     this.e1 = 12;
+//     this.e2 = 12;
+// }
+
+// function a(e1, e2) {
+//     e1 = 4;
+//     e2 = 6;
+//     b.call(this);
+//     console.log(`${e1}     ${e2}`)
+
+// }
+// a(1, 1);
+// //     ---     
+// function Product(name, price) {
+//     this.name = name;
+//     this.price = price;
+// }
+
+// function Food(name, price) {
+//     Product.call(this, name, price);
+//     this.category = 'food';
+//     console.log(name)
+//     console.log(price)
+// }
+// Food("meet", 100)
+/// call (obj , arg 1 , arg 2  , .... )
+/// apply (obj , [ arg1, arg , .......])+
+// let listObj = {
+//     '0': 'zero',
+//     '1': 'one',
+//     '2': 'two',
+//     length: 4,
+//     sayhello() {
+//         console.log("hello ")
+//     }
+// };
+
+// let n1 = [10, 30, 10, 20];
+// let n2 = [30, 20, 10];
+
+// console.log(Math.max(...n1) * [...n1, ...n2].length)
+
+
+// function arg() {
+//     return Array.from(arguments);
+// }
+// console.log(arg(1, 2, 3, 4))
+// console.log([].slice.call())
+
+// };
+// var element_count = 0;
+// for (e in listObj) { if (listObj.hasOwnProperty(e)) element_count++; }
+// // console.log(listObj.valueOf('0'))
+// console.log(element_count)
+// for (key in listObj)
+
+// let arr = [].slice.call(listObj);
+// console.log(arr); // [ 'zero', 'one', 'two' ]
+// let arr = Object.values(listObj);
+// \w a-z A-Z _ 0-9 
+// console.log(arr);
+// let str = "Ahmed";
+// let regStr = /[A-Z]/;
+// console.log(regStr.test(str))
+
+// // function test first upper case or not 
+// let testUpperCase = (ele) => {
+//     let regex = /[A-Z]/;
+//     if (regex.test(ele)) {
+//         console.log("first is upper case ");
+//     } else {
+//         console.log("first not upper ");
+//     }
+// }
+// testUpperCase("ahmed");
+// testUpperCase("Ali");
+
+// check credit cedit card number
+// let checkCard = (cardNumber) => {
+//     let regex = /[0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]/ // 10 numbers
+//     if (regex.test(cardNumber))
+//         console.log("10 digits done");
+//     else
+//         console.log("not valid")
+// }
+// checkCard(1234567890);
+// checkCard(123456789);
+
+
+// \b.. start with  ..\b end with word
+
+
+// + one or more 
+// * zero or more 
+// ? zero or one  
+// let str = "we go to school in the every day baby";
+// // first 3 letters 
+// console.log(str.match(/\w{3}/)); // escape spaces and get first three 
+// console.log(str.match(/.{3}/)); // not escape spaces and get first three
+// console.log(str.match(/\s\w{3}\s/)); // space - three letter - space 
+
+// let string = "1212121,mfmnbrkjrwelrkjfkwh32n4j2kb3jkn4l23";
+// string = string.replace(/[0-9]/g, "");
+// console.log(string.replace(/[0-9]/g, ""))
+// console.log(string);
+
+// let price = "we pay 12$ 12.21$ $12";
+// console.log(price.match(/\$?\d+(.\d+\$?)?/))
+
+// {num, } => at least num or more 
+
+// let str = "wer go to school every a+c day0";
+// // console.log(/ay$/g.test(str)); // $ => end with ay 
+// console.log(/^we/g.test(str)); // ^ => start with we r not
+// console.log(/^we(r)$/g.test(str)); // (?=letter) => end eith letter
+// // console.log(/^we(?=r)/g.test(str)); // (?!letter) => not end eith letter
+// console.log(str.match(/a+c/g)); // ? not include space
+
+// const ex1 = 'Grade 1Grade 2Grade 3Grade 4Grade 5';
+// const ex2 = 'The pheasant has no agenda';
+// const ex3 = '75, 50 : 123 / 900 - 321 + 900 = 55';
+// const ex4 = 'My name is: James';
+// const ex5 = `Did you find any droids? No, 've sir. If there were any on board, they must also have jettisoned. Send a scanning crew on board. I want every part of this ship checked. Yes, sir. I sense something...a presence I haven't felt since... Get me a scanning crew in here on the double. I want every part of this ship checked! Boy, it's lucky you've these compartments. I use them for smuggling. I never thought I'd be smuggling myself in them. This is ridiculous. Even if I could take off, I'd never get past the tractor beam.`
+
+// // console.log(ex1.match(/grade\s\d/ig));
+// console.log(/(agend|age)/.test(ex2))
+// console.log(/age[nda]/ig.test(ex2))
+// console.log(ex3.match(/[0-9]/g))
+
+
+// ---------------------------------------------------------
+// class User {
+//     constructor(...arr) {
+//             this.name = "hello " + arr[0];
+//             this.age = arr[1];
+//             this.sallary = arr[2] + arr[2];
+//         }
+//         // methouds 
+//     satwelcome() {
+//         return `hello`;
+
+//     }
+// }
+// let FirstObject = new User("ahmd", 12, 11200);
+// console.log(FirstObject);
+
+// console.log(FirstObject instanceof User);
+// // console.log(FirstObject.satwelcome())
+
+// let a = new Array([2, 2, 3, 4]);
+// console.log(a);
+
+// Importance of new Keyword
+// Now you may be wondering what if I don’t use the new keyword? Can I omit the new keyword? Well, my friend, no. Using the new keyword is very much essential.
+
+// JavaScript constructors are regular functions. They are 
+// accompanied by a new keyword to tell the JavaScript engine that a
+// new object must be constructed with the given properties.Without
+// the new keyword, you would be simply creating more and more global objects.
+//     // The new keyword returns a reference to the newly created object.
+// We then store this reference in a variable.Without the new keyword,
+//     the object is created, but no reference to the object is returned.
+// The object assumes a global scope.The only reference to this object
+// is through the window object.
+//     // Confused? Let us understand better with examples
+
+// .Consider the above example again.We removed the new
+// keyword from the object declarations.The result was an
+// exception to undefined variables.This is because, without
+// the new keyword the newly created objects’ reference wasn’ t
+// returned and thus wasn’ t stored in our variables book1, book2,
+//     and book3.When we tried to access these variables in the display
+// book method, the exception is thrown.
+// var el = document.createElement("div");
+// el.setAttribute("class", "ali");
+// b = document.createElement("div");
+// b.setAttribute("class", "sd");
+// b.value = "sdsd";
+// el.appendChild(b);
+// console.log(el);
+// console.log(b);
+// let a = 10;
+// let arr = [1, 2, 3, 5, 5];
+
+// function say() {
+//     return `hello frim `;
+// }
+// export {
+//     a
+// }
+// let forms = document.forms;
+// let links = document.links;
+// let test = document.querySelector(".test");
+// test.onmouseover = () => {
+//     console.log("on");
+// }
+
+// test.onmouseout = () => {
+//     console.log("out");
+// }
+
+// console.log(test.firstElementChild);
+// console.log(test.clientHeight);
+
+// console.log(document.querySelector(".s1").clientHeight);
+
+// function book(title, author) {
+//     this.title = title;
+//     this.author = author;
+// }
+
+// var myBook = new book("Perl", "Mohtashim");
+// book.prototype.price = null;
+// book.prototype.cans = "pepsi";
+// Number.prototype.c = 2;
+// myBook.price = 100;
+// console.log("Book title is : " + myBook.title);
+// console.log("Book author is : " + myBook.author);
+// console.log("Book price is : " + myBook.price);
+// console.log();
+// let fromServer = '{ "age": 12 }';
+// console.log(fromServer);
+// console.log(typeof fromServer);
+
+// let a = JSON.parse(fromServer);
+// console.log(a);
+// let b = JSON.stringify(a);
+// console.log(b);
+// setTimeout(say, 10);
+
+// function say() {
+//     console.log(myvar);
+// }
+// let myvar = 10;
+
+// fetch().then()
+
+
+// let btn = document.getElementById("btn");
+// let close = document.getElementById("close");
+// btn.addEventListener("click", () => {
+//     // height of viewport 
+//     if (window.top != window.self) {
+//         text = "This window is NOT the topmost window!";
+//     } else {
+//         text = "This window is the topmost window!";
+//     }
+//     // window.top;
+//     console.log(window)
+// });
+// close.addEventListener("click", () => {
+//     window.scrollBy(0, 100);
+
+// });
