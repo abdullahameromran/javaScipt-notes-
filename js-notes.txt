@@ -1,0 +1,392 @@
+-console.log("hello %cfrom %cjs", "color:red;font-size:51px;", "font-size:41px;color:blie;"); // %c
+
+
+- - - - - - - - - - - -  Var | Let | Const - - - - - - - - - - - - - - 
+
+
+var: This keyword is used to declare variable globally.
+  If you used this keyword to declare variable then the variable can accessible globally and changeable also.
+  It is good for a short length of codes, if the codes get huge then you will get confused.
+  User can re-declare variable using var and user can update var variable.
+
+let: This keyword is used to declare variable locally.
+ If you used this keyword to declare variable then the variable can accessible locally and 
+ it is changeable as well. It is good if the code gets huge.
+
+EX.
+<script>
+if (true) {
+    let geeks = "GeeksforGeeks";
+    console.log(geeks);
+    }
+      
+    /* This will be error and 
+       show geeks is not defined */
+    console.log(geeks);
+</script>
+
+
+const: This keyword is used to declare variable locally.
+ If you use this keyword to declare a variable then the variable will only be accessible within that block 
+ similar to the variable defined by using let and difference between let and const is that the variables
+ declared using const values can’t be reassigned. So we should assign the value while declaring the variable.
+ 
+
+-- (Math.random() * (max - min) ) + min     -> from max to min
+
+
+-------------------------------------
+
+
+		## Dom ##
+
+- The DOM stands for Document Object Model, it is an interface that allows developers to interact and control
+  the Elements of the web.
+
+- The DOM acts as an interface between document and Javascript. Using DOM + Javascript developers can access 
+  and modify each and every element of the document using DOM.
+
+- Every HTML element in the document is an object. The text inside the elements is also an object as well.
+
+          - Difference Between Node And Element - 
+
+- Node is a generic name for any type of object in the DOM. A node can be any object within the document,
+  like any element, attribute, text etc
+
+- Whereas an element is a node with a specific node type, which is equal to 1.
+  Every element is a node in DOM but every node is not an element.
+
+> Javascript can change and add nodes in the DOM.
+> Javascript can add or change style (CSS) of the DOM element.
+> Javascript can set new attributes to the DOM element and can remove and modify older attributes.
+> Javascript can add new element in the DOM structure.
+> Javascript can create and add events to the DOM element.
+> Javascript can delete elements from the DOM tree.
+
+
+
+         append()` appendChild()
+> Using the append() method you can append both DOMString and DOMNodes (element) to the parent element.
+> Using the appendChild() method you can append only DOMNodes (element) to the parent element.
+
+> The append() method returns the appended node.
+> The appendChild() method returns nothing.
+
+> The append() method can append multiple elements at once.
+> The appendChild() method can only append one element at a time.
+
+
+>> To add an attribute to an element, you can use the setAttribute() method on the element.
+
+>> Elements like <input> and <img> have some compulsory attributes like type and src.>> 
+
+>> To add an attribute to an element, use the setAttribute() method on the element and pass the attribute name and value as arguments.
+
+>>
+
+-------------------
+				- append and appendChild - 
+
+ - .append accepts Node objects and DOMStrings while .appendChild accepts only Node objects .
+ - .append does not have a return value while .appendChild returns the appended Node object .
+ - .append allows you to add multiple items while appendChild allows only a single item .
+ example =>
+ 
+const parent = document.createElement('div');
+const child = document.createElement('p');
+// Appending Node Objects
+parent.append(child) // Works fine
+parent.appendChild(child) // Works fine
+// Appending DOMStrings
+parent.append('Hello world') // Works fine
+parent.appendChild('Hello world') // Throws error
+
+------------------------ call and apply -------------------------
+
+152
+
+
+-In JavaScript, methods of an object can be bound to another object at runtime. In short,
+ javascript allows an object to "borrow" the method of another object:
+
+object1 = {
+    name: 'Frank',
+    greet() {
+        alert(`Hello ${this.name}`);
+    }
+};
+
+object2 = {
+    name: 'Andy'
+};
+
+// Note that object2 has no greet method,
+// but we may "borrow" from object1:
+
+object1.greet.call(object2); // Will show an alert with 'Hel
+
+
+
+------------------------ fuction pass by value -------------------------
+
+-That means pass-by-copy
+
+-The real impact of pass-by-value is that any changes to a parameter’s value within the function will affect only =
+ the parameter, not the original variable passed to the function. That’s pretty much it
+
+ Q) What does a function return if it doesn’t have a return statement?
+ A: A function without a return statement returns undefined.
+
+ Q) What happens if I use the same name for an argument variable as the parameter?Like if I use the name x for both?
+ A: Even if your argument and parameter have the same name, like x, the parameter x gets a copy of the argument x,
+ so they are two different variables. Changing the value of the parameter x does not change the value of the argument x. 
+
+
+ Q) Why don’t the parameter names have var in front of them? A parameter is a new variable right?   
+ A: Effectively yes. The function does all the work of instantiating the variable for you, 
+    so you don’t need to supply the var keyword in front of your parameter names. 
+
+ Q) I have global variables in my page, but I’m loading in other JavaScript files as well.
+    Do those files have separate sets of global variables? 
+    A: There is only one global scope so every file you load sees the same set of variables
+   (and creates globals in the same space). That’s why it is so important you be careful with
+    your use of variables to avoid clashes (and reduce or eliminate global variables when you can). 
+
+
+
+-------- Actually, you can put your functions anywhere in your JavaScript file -------------------
+
+
+- Concept is : 
+
+- when the browser loads your page, it starts executing the JavaScript from the top to the bottom of your file. 
+  But, the truth is JavaScript actually makes two passes over your page:
+  - in the first pass it reads all the function definitions, 
+  - in the second it begins executing your code. So, that allows you to place functions anywhere in you file.
+
+- JavaScript doesn’t care if your functions are declared before or after you use them. For instance,
+  check out this code: 
+  var radius = 5;
+  var area = circleArea(radius);
+  alert(area);
+  function circleArea(r) { var a = Math.PI * r * r; return a; }
+
+
+~ BULLET POINTS : 
+
+  ?1) You can use JavaScript’s many built-in functions, like alert, prompt, and  Math.random, to do work in your programs.
+ ? 2) Using built-in functions means using existing code you don’t have to write yourself.
+ ? 3) It’s a good idea to organize your code so your functions are together, and your global variables are together, at the top of your JavaScript ile.
+
+
+
+ - Some Question - 
+
+> Another phrase for invoking a function. 	A: Function Call
+
+> Example of a function attached to an object.  A: Math-Random
+
+> alert and prompt are examples.		A: Built-In-Functions
+
+> What functions are great for.			A: Code-Reuse
+
+> Where I can be seen.				A: Scope 
+
+> I’m around when my function is.		A: Local Variabl
+
+
+------------------------------------- constructor ------------------------------------
+
+- You define proberties and mehouds using this keyword . 
+
+- new : build object and calling constructor .
+
+- this : is implies oject owernership and this.date means that data proberty belongs to object where code appear .
+
+-> structure 
+
+	class Name{
+		contructor( paramerters ){
+			this.probertyName = AssigndeValue ;
+		}
+	}
+
+	Name obj = new Name();
+
+
+
+ > new Date () -> constructor from oject date 
+
+ > when you inshite object from date and make progress in it value = seconds from constant point .  
+
+ > function getDifference(date1, date2) {
+
+    if (date1 > date2) {
+
+        console.log(Math.round((date1 - date2) / (1000 * 60 * 60 * 24)));
+
+    } else {
+
+        console.log(-Math.round((date1 - date2) / (1000 * 60 * 60 * 24)));
+    }
+
+}
+
+
+
+-------------------------------  Class -----------------------------
+
+   class MyClass {   
+	 constructor(option) { 
+         console.log(`Creating instance using ${option} option.`);
+         this.option = option;    
+			     }
+		 }
+
+ - Class Inheritance : 
+
+      class SubClass extends SuperClass {
+    		constructor() {
+	        super();   call constructor for parent       
+		this.name = 'subclass'; 
+		}
+}
+
+
+-- getter and setter 
+
+
+class MyClass {
+    constructor() { this.names_ = []; }
+    set name(value) { this.names_.push(value); }
+    get name() { return this.names_[this.names_.length - 1]; }
+}
+
+	const myClassInstance = new MyClass();
+	myClassInstance.name = 'Joe';
+	myClassInstance.name = 'Bob';
+
+	console.log(myClassInstance);
+	console.log(myClassInstance.name); // logs: "Bob" console.log(myClassInstance.names_); // logs: ["Joe", "Bob"]
+
+
+
+
+	------------- Document Object ---------------
+
+
+ - document properties :
+
+ * forms Returns an array of all the form elements in the document.
+
+ * head : Returns the head element of the document 
+
+ * doctype :  Returns the doctype declaration associated with the document
+
+ * fileSize : Returns the size of the document in bytes .
+
+ * domain : Returns the domain name of the server for the document
+
+ * currentScript :  Returns the script element that is currently being read  ( as main.js)
+
+ * images : Returns An array of all the image (img) elements in the document 
+
+ * links : Returns an array of all the hyperlink (<a>) elements in the document
+
+ * location : Returns the URI of the document
+
+ * textContent :  Returns or sets the text content
+
+ * title :  Returns the text used inside the title tags of the document
+
+ * childNodes :  Returns an array of all the child nodes of the specified node
+ 
+ * children Returns an array of all the child elements of the specified node.
+ 
+ * classList Returns a list of the classes within the class attribute of the element .
+
+
+
+
+
+
+ - node : text and elements .. .
+
+
+---------------------  Synchronous - aSynchronous  ---------------------
+
+ * synchronous when they happen at the same time (in sync), and asynchronous when they don’t (not in sync).
+ 
+ * function execution stack is sequential. This is the Synchronous part of JavaScript. JavaScript's main thread
+   makes sure that it takes care of everything in the stack before it starts looking into anything elsewhere. 
+
+	function f1() {
+ 	console.log('f1');
+	}
+
+	function f2() { 
+    	console.log('f2');
+	}
+
+	function f3() { 
+    	console.log('f3');
+	}
+
+	function main() {
+  	console.log('main');
+
+	  setTimeout(f1, 50);
+  	setTimeout(f3, 30);
+
+	  new Promise((resolve, reject) =>
+    	resolve('I am a Promise, right after f1 and f3! Really?')
+  	).then(resolve => console.log(resolve));
+    
+  	new Promise((resolve, reject) =>
+    	resolve('I am a Promise after Promise!')
+  	).then(resolve => console.log(resolve));
+
+	  f2();
+	}
+
+	main();
+
+
+	Here is the expected output:
+
+	main
+	f2
+	I am a Promise, right after f1 and f3! Really?
+	I am a Promise after Promise!
+	f3
+	f1
+
+
+
+ ** web api include aSynchronous  and  Synchronous methouds setTimeOut() use event loop ( Queue based ) 
+    console.log() -> will Synchronously write in wen api . 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
